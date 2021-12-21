@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>University Of Lahore</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=
+Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <section class="sub-header">
+<nav>
+    <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+    <div class="navlist about-navlist" id="navlist">
+        <i class=" material-icons"  id="icon" onclick="hideMenu()">close</i>
+     
+         <ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="courses.html">COURSE</a></li>
+<li><a href="blog.html">BLOG</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+
+         </ul>
+
+    </div>
+    
+<i class=" material-icons" id="menu" onclick="showMenu()">menu</i>
+</nav>
+<h1>Contact Us</h1>
+
+
+   </section>
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.823316300525!2d74.238971814645!3d31.391434960639288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919018a8ea548c1%3A0x4a52db69c2c814f!2sThe%20University%20of%20Lahore!5e0!3m2!1sen!2s!4v1622067308479!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
+
+
+   </section>
+   <section class="contact">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>1 - KM Defence Road,Bhupatian Chowk</h5>
+                    <p>Lahore, Punjab</p>
+                   
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+92 (0)42 111865865</h5>
+                    
+                    <p>Monday to saturday,9AM TO 10pm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                     <h5>info@uol.edu.pk</h5>
+                     <p>Email Us</p>
+                </span>
+            </div>
+        </div>
+
+        
+        <div class="contact-col">
+
+            <form action="post">
+                <input type="text" name ="name" placeholder="Enter Your Name"  required>
+                <input type="email" name="email" placeholder="Enter Your email" required>
+                <input type="text" name="subject"placeholder="Enter Your Subject" required>
+                <textarea rows="8"placeholder="messege" required></textarea>
+                <button class="btn green-btn">Send Messege</button>
+
+            </form>
+        </div>
+    </div>
+   </section>
+  
+
+
+   </section>
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>The University of Lahore (UOL) has played a major
+         role in developing learning and research that 
+         would provide<br> students, wanting to study in the
+          private sector, with a greater choice of courses.</p>
+          <span class="fa fa-facebook"></span>
+          <span class="fa fa-instagram"></span>
+         <span class="fa fa-twitter "></span>
+         <span class="fa fa-linkedin"></span>
+        
+    
+    </section>
+<!--------------------------javascript----------------------->
+<script>
+    var navlist =document.getElementById("navlist");
+    function showMenu(){
+        navlist.style.right="0";
+    }
+    function hideMenu(){
+        navlist.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>    

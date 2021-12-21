@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>University Of Lahore</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=
+Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+   <section class="sub-header">
+<nav>
+    <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+    <div class="navlist about-nav" id="navlist">
+        <i class=" material-icons"  id="icon" onclick="hideMenu()">close</i>
+     
+         <ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="courses.html">COURSE</a></li>
+<li><a href="blog.html">BLOG</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+
+         </ul>
+
+    </div>
+    
+<i class=" material-icons" id="menu" onclick="showMenu()">menu</i>
+</nav>
+<h1>About Us</h1>
+
+
+   </section>
+   <!--------------------About Us Content---------------->
+   <section class="about-us">
+       <div class="row">
+        <div class="about-col">
+    <h2>We are the world's largest university</h2>
+    <p>The University of Lahore (UOL) has 2 campuses in Lahore, 
+        2 campuses in Islamabad and one in Sargodha, Pakpattan 
+        and Gujrat. All programs run at the UOL, are recognized
+         by the Higher Education Commission (HEC), the Government
+          regulatory body, in Pakistan.The Lahore campus not only
+           attracts locals in large number, but foreigners as well;
+           thus providing rich diversity and fruitful environment.</p>
+           <a href="" class="btn green-btn">Explore Now</a>
+
+
+</div>
+<div class="about-col">
+    <img src="images/about.jpg" alt="about">
+    </div>
+       </div>
+
+
+
+
+
+
+   </section>
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>The University of Lahore (UOL) has played a major
+         role in developing learning and research that 
+         would provide<br> students, wanting to study in the
+          private sector, with a greater choice of courses.</p>
+          <span class="fa fa-facebook"></span>
+          <span class="fa fa-instagram"></span>
+         <span class="fa fa-twitter "></span>
+         <span class="fa fa-linkedin"></span>
+        
+    
+    </section>
+<!--------------------------javascript----------------------->
+<script>
+    var navlist =document.getElementById("navlist");
+    function showMenu(){
+        navlist.style.right="0";
+    }
+    function hideMenu(){
+        navlist.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>    
